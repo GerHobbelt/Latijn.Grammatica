@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "59066191fb5bcd44",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a7b95ca0865e8bd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Grammatica.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bcb3ed1090bc9b9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8694d85e8ce1f76b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd59f33328df58b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "381bc0649521bb51",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "93a6ae4c241a6f31",
+    "type": "split",
+    "children": [
+      {
+        "id": "f57f488b60dcaecf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88636c0fd8911288",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Grammatica.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2a7b95ca0865e8bd",
+  "lastOpenFiles": [
+    "Grammatica.md",
+    "README.md"
+  ]
+}
