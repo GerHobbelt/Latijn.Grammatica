@@ -1,3 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"  />
+<style>
+:root {
+  --bs-body-font-family: "Book Antiqua", serif;
+}
+body {
+	padding: 5em 7em;
+}
+div#content {
+	/* margin: 1em; */
+}
+div a,
+div a:hover, /* OPTIONAL*/
+div a:visited,
+div a:focus {
+	/* text-decoration: none; */
+	color: black;
+	
+	text-decoration-color: #EA215A;
+	text-decoration-thickness: .125em;
+	text-underline-offset: 1.5px;
+	text-decoration-skip-ink: auto;
+}
+code {
+	font-weight: bolder;
+}
+h1 {
+	break-before: page;
+}
+h2 {
+	break-before: page;
+}
+h1 + h2 {
+	break-before: avoid;
+}
+h3 {
+	break-before: page;
+}
+h2 + h3 {
+	break-before: avoid;
+}
+.force-page-break {
+	break-before: page;
+}
+tr.force-page-break {
+	page-break-inside: avoid; 
+	page-break-before: page;
+	page-break-after: auto;
+}
+.condensed tr td {
+    font-size: 88%;
+}
+</style>
+</head>
+<body>
+
 <div id="content" class="mw-body" role="main">
 	<h1 id="firstHeading" class="firstHeading">Algemene Latijnse vervoegingen en verbuigingen</h1>
 	<div id="bodyContent" class="vector-body">
@@ -111,17 +169,27 @@
 
 <h2><span class="mw-headline" id="Naamwoorden">Naamwoorden</span> </h2>
 <h3><span class="mw-headline" id="Zelfstandige_naamwoorden">Zelfstandige naamwoorden</span> </h3>
-<p>De volgorde van boven naar beneden is: 
-nominatief (nom)
-genitief   (gen)
-datief     (dat)
-accusatief (acc)
-vocatief   (voc)
-ablatief   (abl)
-</p><p>nooit de abl. en de voc omdraaien! 
+<p>De volgorde van boven naar beneden is: </p>
+<ul>
+<li>
+nominatief (<dfn>nominativus</dfn>) <span class="code">(nom)</span>
+<li>
+genitief (<dfn>genitivus</dfn>)  <span class="code">(gen)</span>
+<li>
+datief (<dfn>dativus</dfn>)    <span class="code">(dat)</span>
+<li>
+accusatief (<dfn>accusativus</dfn>) <span class="code">(acc)</span>
+<li>
+vocatief (<dfn>vocativus</dfn>)  <span class="code">(voc)</span>
+<li>
+ablatief (<dfn>ablativus</dfn>)  <span class="code">(abl)</span>
+</ul>
+<p>nooit de abl. en de voc omdraaien! </p>
+<p>
 De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Declinatie_(taalkunde)" title="Declinatie (taalkunde)">declinaties</a>. Voor elke declinatie zijn andere regels wat betreft de verbuiging van de woorden in de verschillende naamvallen.
 </p>
-<table class="wikitable">
+<h4>Declinatie 1</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Declinatie 1
 </th></tr>
@@ -174,7 +242,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <li>De nom. en abl. sing. zijn qua vorm gelijk; de nom. eindigt echter op een korte ǎ, terwijl de abl. eindigt op een lange ā. In proza wordt verwarring zo veel mogelijk vermeden; in poëzie kan men aan het <a href="/wiki/Metrum" title="Metrum">metrum</a> aflezen of een vorm een nom. of abl. is.</li>
 <li>De woorden <i>dea</i> (Godin) en <i>filia</i> (dochter) eindigen soms in de dat. en abl. plur. op ābus, om verwarring met dat. en abl. plur van <i>deus</i> (God) en <i>filius</i> (zoon) te voorkomen.</li></ul>
 </td></tr></tbody></table>
-<table class="wikitable">
+<h4 class="force-page-break">Declinatie 2</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Declinatie 2
 </th></tr>
@@ -281,7 +350,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <li>Bij enkele woorden uit de tweede declinatie treft men nog de oorspronkelijke vervoeging van de gen. plur. aan op -um, zoals <i>deum</i>, <i>socium</i>, <i> liberum</i> en <i>virum</i>.</li>
 <li>Volgens <i>puer</i> (stam: puer-) gaan: <i>gener</i>, <i>socer</i>, <i>vesper</i>, <i>Liber</i>, <i>liberi</i> en substantiva op -fer en -ger, zoals <i>signifer</i> en <i>armiger</i>. De overige woorden op -er gaan volgens <i>ager</i> (stam: agr-).</li></ul>
 </td></tr></tbody></table>
-<table class="wikitable">
+<h4>Declinatie 3</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover    condensed">
 <tbody><tr>
 <th colspan="11">Declinatie 3
 </th></tr>
@@ -411,7 +481,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <li>Woorden op -o, -s en -x zijn vaak vrouwelijk (mannelijk: <i>dens</i>, <i>fons</i>, <i>mons</i>, <i>pons</i>, <i>finis</i>, <i>ignis</i> en <i>pes</i>)</li>
 <li>Woorden op -us en -men zijn vaak onzijdig (mannelijk: <i>flamen</i>, priester)</li></ul>
 </td></tr></tbody></table>
-<table class="wikitable">
+<h4 class="force-page-break">Declinatie 4</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Declinatie 4
 </th></tr>
@@ -497,7 +568,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <li><i>Colus</i> komt ook als mannelijk zelfstandig naamwoord voor en bij sommigen als woord van de tweede declinatie.</li>
 <li><i>Domus</i> gaat deels volgens de 2e declinatie.</li></ul>
 </td></tr></tbody></table>
-<table class="wikitable">
+<h4>Declinatie 5</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="5">Declinatie 5
 </th></tr>
@@ -564,7 +636,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <ul><li>Het geslacht van de woorden is altijd vrouwelijk; <i>dies</i> is vaak mannelijk wanneer het niet duidelijk is om welke <i>dag</i> het precies gaat. Wordt een bepaalde dag bedoeld, dan is <i>dies</i> vrouwelijk.</li></ul>
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Bijvoeglijke_naamwoorden">Bijvoeglijke naamwoorden</span> </h3>
-<table class="wikitable">
+<h4>Klasse 1</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover   condensed">
 <tbody><tr>
 <th colspan="10">Bijvoeglijke naamwoorden: klasse 1
 </th></tr>
@@ -754,7 +827,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <p><br>
 </p>
-<table class="wikitable">
+<h4>Klasse 2</h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover    condensed">
 <tbody><tr>
 <th colspan="10">Bijvoeglijke naamwoorden: klasse 2
 </th></tr>
@@ -944,7 +1018,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Voornaamwoorden">Voornaamwoorden</span> </h3>
 <h4><span class="mw-headline" id="Persoonlijke_voornaamwoorden">Persoonlijke voornaamwoorden</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Persoonlijke voornaamwoorden
 </th></tr>
@@ -1057,7 +1131,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <ul><li>De genitivus op -i (mei, tui, sui, nostri, vestri) wordt alleen gebruikt als genetivus objectivus; <i>amor mei</i> (de liefde voor mij). De genitivus op -um (nostrum, vestrum) wordt alleen gebruikt als genitivus partitivus; <i>quis nostrum?</i> (wie van ons?). Wanneer men een bezitsrelatie wil uitdrukken, zoals in het Nederlandse <i>De vrouw is van mij</i>, krijgt men in het Latijn een bezittelijk voornaamwoord dat congrueert met het zelfstandige naamwoord: <i>Femina est mea</i>.</li></ul>
 <h4><span class="mw-headline" id="Betrekkelijke_voornaamwoorden">Betrekkelijke voornaamwoorden</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Betrekkelijke voornaamwoorden
 </th></tr>
@@ -1148,9 +1222,9 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>quibus</td>
 <td><i>door wie, waardoor</i>
 </td></tr></tbody></table>
-<h4><span class="mw-headline" id="Vragende_voornaamwoorden">Vragende voornaamwoorden</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Vragende_voornaamwoorden">Vragende voornaamwoorden</span> </h4>
 <h5><span class="mw-headline" id="Zelfstandig">Zelfstandig</span> </h5>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Zelfstandige vragende voornaamwoorden
 </th></tr>
@@ -1232,7 +1306,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <p>Aangezien het niet mogelijk is om te weten of er naar een man of vrouw gevraagd wordt ("Wie is daar aan de deur?"), wordt er geen onderscheid gemaakt tussen mannelijk en vrouwelijk. De onzijdige variant kan echter wel: "Wat ligt daar op de grond?".
 </p>
 <h5><span class="mw-headline" id="Bijvoeglijk">Bijvoeglijk</span> </h5>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Bijvoeglijke vragende voornaamwoorden
 </th></tr>
@@ -1323,8 +1397,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>quibus</td>
 <td><i>met welke?</i>
 </td></tr></tbody></table>
-<h4><span class="mw-headline" id="Aanwijzende_voornaamwoorden">Aanwijzende voornaamwoorden</span> </h4>
-<table class="wikitable">
+<h4 class="force-page-break"><span class="mw-headline" id="Aanwijzende_voornaamwoorden">Aanwijzende voornaamwoorden</span> </h4>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Aanwijzende voornaamwoorden
 </th></tr>
@@ -1533,7 +1607,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <li>Supinum (Verbaal substantief)</li></ul>
 <p>De coniunctivus wordt op vele verschillende manieren vertaald, dit hangt onder meer af van in welke van de 4 mogelijke tempora het staat:
 </p>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 
 <tbody><tr>
 <th>tijd</th>
@@ -1590,7 +1664,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </p>
 <h3><span class="mw-headline" id="Activum">Activum</span> </h3>
 <h4><span class="mw-headline" id="Praesens">Praesens</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Tegenwoordige tijd
 </th></tr>
@@ -1754,9 +1828,9 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td><i>(moge) zij roepen</i>
 </td></tr>
 </tbody></table>
-<h4><span class="mw-headline" id="Verleden_tijd">Verleden tijd</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Verleden_tijd">Verleden tijd</span> </h4>
 <h5><span class="mw-headline" id="Perfectum">Perfectum</span> </h5>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid tegenwoordige tijd
 </th></tr>
@@ -1919,8 +1993,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>potuerint</td>
 <td><i>moge zij hebben geroepen</i>
 </td></tr></tbody></table>
-<h5><span class="mw-headline" id="Imperfectum">Imperfectum</span> </h5>
-<table class="wikitable">
+<h5 class="force-page-break"><span class="mw-headline" id="Imperfectum">Imperfectum</span> </h5>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Onvoltooid verleden tijd
 </th></tr>
@@ -2074,8 +2148,8 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>possent</td>
 <td>
 </td></tr></tbody></table>
-<h5><span class="mw-headline" id="Plusquamperfectum">Plusquamperfectum</span> </h5>
-<table class="wikitable">
+<h5 class="force-page-break"><span class="mw-headline" id="Plusquamperfectum">Plusquamperfectum</span> </h5>
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid verleden tijd
 </th></tr>
@@ -2217,11 +2291,11 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>potuissent</td>
 <td>
 </td></tr></tbody></table>
-<h4><span class="mw-headline" id="Toekomende_tijd">Toekomende tijd</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Toekomende_tijd">Toekomende tijd</span> </h4>
 <h5><span id="Futurum_.28simplex.29"></span><span class="mw-headline" id="Futurum_(simplex)">Futurum (simplex)</span> </h5>
 <ul><li>Bij de a-stammen en e-stammen wordt het futurum als volgt gevormd: prs. stam + b + uitgang</li>
 <li>Bij de i-stammen en mk-stammen: prs. stam + e + uitgang</li></ul>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="6">Futurum (simplex) (Onvoltooid toekomende tijd)
 </th></tr>
@@ -2346,7 +2420,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <h5><span class="mw-headline" id="Futurum_exactum">Futurum exactum</span> </h5>
 <ul><li>Het Futurum exactum wordt als volgt gevormd: prf-stam + esse in de indicativus futurum</li>
 <li><b>Uitzondering</b> hierop is de 3e persoon meervoud (er<b>u</b>nt wordt er<b>i</b>nt)</li></ul>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid Toekomende Tijd
 </th></tr>
@@ -2433,7 +2507,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Passivum">Passivum</span> </h3>
 <h4><span class="mw-headline" id="Tegenwoordige_tijd">Tegenwoordige tijd</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Praesens
 </th></tr>
@@ -2572,12 +2646,12 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>reg<b>antur</b></td>
 <td>
 </td></tr></tbody></table>
-<h4><span class="mw-headline" id="Verleden_tijd_2">Verleden tijd</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Verleden_tijd_2">Verleden tijd</span> </h4>
 <h5><span class="mw-headline" id="Perfectum_2">Perfectum</span> </h5>
 <ul><li>Het passieve Perfectum wordt als volgt gevormd: ppp + ott van esse</li>
 <li>Dit geldt ook voor de coniunctivus</li>
 <li>Het ppp verbuigt op het rijtje van longus -a -um</li></ul>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid tegenwoordige tijd
 </th></tr>
@@ -2651,7 +2725,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td colspan="8">Zoals de indicativus maar dan met de coniunctivus praesenti van esse, <i>vocatus sim</i> etc.
 </td></tr></tbody></table>
 <h5><span class="mw-headline" id="Imperfectum_2">Imperfectum</span> </h5>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Onvoltooid verleden tijd
 </th></tr>
@@ -2763,11 +2837,11 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>rege<b>rentur</b></td>
 <td>
 </td></tr></tbody></table>
-<h5><span class="mw-headline" id="Plusquamperfectum_2">Plusquamperfectum</span> </h5>
+<h5 class="force-page-break"><span class="mw-headline" id="Plusquamperfectum_2">Plusquamperfectum</span> </h5>
 <ul><li>Het passieve Plusquamperfectum wordt als volgt gevormd: ppp + ovt van esse</li>
 <li>Dit geldt ook voor de coniunctivus: vocatus essem etc.</li>
 <li>Het pqpf verbuigt op de vorm van longus -a -um</li></ul>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid verleden tijd
 </th></tr>
@@ -2808,11 +2882,11 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>moniti <b>erant</b></td>
 <td><i>zij waren geroepen</i>
 </td></tr></tbody></table>
-<h4><span class="mw-headline" id="Toekomende_tijd_2">Toekomende tijd</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Toekomende_tijd_2">Toekomende tijd</span> </h4>
 <h5><span class="mw-headline" id="Futurum_Simplex">Futurum Simplex</span> </h5>
 <ul><li>Bij de a-stammen en e-stammen wordt het futurum als volgt gevormd: prs. stam + b + pua</li>
 <li>Bij de i-stammen en mk-stammen: prs. stam + e + pua</li></ul>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="5">Futurum (simplex) (Onvoltooid toekomende tijd)
 </th></tr>
@@ -2914,7 +2988,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>te zullen geroepen worden
 </td></tr></tbody></table>
 <h5><span class="mw-headline" id="Futurum_exactum_2">Futurum exactum</span> </h5>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid Toekomende Tijd
 </th></tr>
@@ -2983,7 +3057,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <h2><span class="mw-headline" id="Deelwoorden">Deelwoorden</span> </h2>
 <h3><span class="mw-headline" id="Participium_Praesens_Actief">Participium Praesens Actief</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Tegenwoordig deelwoord
 </th></tr>
@@ -3092,7 +3166,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <h3><span class="mw-headline" id="Participium_Perfectum_Passief">Participium Perfectum Passief</span> </h3>
 <pre><i><a href="/wiki/Voltooid_deelwoord_(Latijn)" title="Voltooid deelwoord (Latijn)">Voltooid deelwoord (Latijn)</a></i>
 </pre>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Voltooid deelwoord
 </th></tr>
@@ -3199,7 +3273,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td><i>met (de) geroepene(n)</i>
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Participium_Futurum_Actief">Participium Futurum Actief</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Toekomstig voltooid deelwoord
 </th></tr>
@@ -3306,7 +3380,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td><i>met (de) zullende(n) roepen</i>
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Gerundium">Gerundium</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Gerundium
 </th></tr>
@@ -3345,7 +3419,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <h2><span class="mw-headline" id="Trappen_van_vergelijking">Trappen van vergelijking</span> </h2>
 <h3><span id="Comparativus_.28vergrotende_trap.29"></span><span class="mw-headline" id="Comparativus_(vergrotende_trap)">Comparativus (vergrotende trap)</span> </h3>
-<table class="wikitable sortable jquery-tablesorter">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <thead><tr>
 <th colspan="9" class="headerSort" tabindex="0" role="columnheader button" title="Oplopend sorteren">Comparativus van longus (lang)
 </th></tr></thead><tbody>
@@ -3444,7 +3518,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td colspan="3">1) langer, 2) nogal lang, 3) te lang, 4) langst (van de twee)
 </td></tr></tbody><tfoot></tfoot></table>
 <h4><span class="mw-headline" id="Onregelmatige_comparativi">Onregelmatige comparativi</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th>bijvoeglijk naamwoord
 </th>
@@ -3479,7 +3553,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td>plus (meer)
 </td></tr></tbody></table>
 <h3><span id="Superlativus_.28overtreffende_trap.29"></span><span class="mw-headline" id="Superlativus_(overtreffende_trap)">Superlativus (overtreffende trap)</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Superlativus van longus (lang)
 </th></tr>
@@ -3578,7 +3652,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td colspan="3">1) langst, 2) zeer lang, 3) (bij quam + superlativus) zo lang mogelijk
 </td></tr></tbody></table>
 <h4><span class="mw-headline" id="Onregelmatige_superlativi">Onregelmatige superlativi</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th>bijvoeglijk naamwoord
 </th>
@@ -3615,7 +3689,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <h2><span class="mw-headline" id="Onregelmatigheden">Onregelmatigheden</span> </h2>
 <h3><span id="Velle_.28willen.29.2C_nolle_.28niet_willen.29.2C_malle_.28liever_willen.29.2C_ferre_.28dragen.2C_brengen.2C_meenemen.29"></span><span class="mw-headline" id="Velle_(willen),_nolle_(niet_willen),_malle_(liever_willen),_ferre_(dragen,_brengen,_meenemen)"><i>Velle</i> (willen), <i>nolle</i> (niet willen), <i>malle</i> (liever willen), <i>ferre</i> (dragen, brengen, meenemen)</span> </h3>
 <h4><span id="Praesens_actief_.28onvoltooid_tegenwoordige_tijd.29"></span><span class="mw-headline" id="Praesens_actief_(onvoltooid_tegenwoordige_tijd)">Praesens actief (onvoltooid tegenwoordige tijd)</span> </h4>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Praesens
 </th></tr>
@@ -3721,10 +3795,10 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 </td></tr></tbody></table>
 <p>Opmerking: de <i>imperativus</i> van <i>nolle</i> (<i>noli, nolite</i>) drukt een zacht verbod uit bv. <i>Noli vocare!</i>= Roep toch niet!; Roep niet alstublieft!; Wil niet roepen!
 </p>
-<h4><span class="mw-headline" id="Overige_tijden_actief">Overige tijden actief</span> </h4>
+<h4 class="force-page-break"><span class="mw-headline" id="Overige_tijden_actief">Overige tijden actief</span> </h4>
 <p>De overige tijden gaan wel regelmatig. Daarom wordt alleen de 1e persoon gegeven.
 </p>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9">Alle tijden
 </th></tr>
@@ -3792,7 +3866,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <h2><span class="mw-headline" id="Telwoorden">Telwoorden</span> </h2>
 <div style="margin-bottom:0.5em; padding:0.5em 0 0.5em 1.6em; font-size:95%;" role="note"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/1rightarrow_blue.svg/15px-1rightarrow_blue.svg.png" decoding="async" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/1rightarrow_blue.svg/23px-1rightarrow_blue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ee/1rightarrow_blue.svg/30px-1rightarrow_blue.svg.png 2x" data-file-width="480" data-file-height="480"> <i>Zie <a href="/wiki/Tabel_met_numeralia_in_het_Latijn" title="Tabel met numeralia in het Latijn">Tabel met numeralia in het Latijn</a> voor het hoofdartikel over dit onderwerp.</i></div>
 <h3><span class="mw-headline" id="Hoofdtelwoorden">Hoofdtelwoorden</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="10">Numeralia: verbuigbaar
 </th></tr>
@@ -3879,7 +3953,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td colspan="3">drie
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Rangtelwoorden">Rangtelwoorden</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover    condensed">
 <tbody><tr>
 <th colspan="10">Numeralia: rangtelwoorden
 </th></tr>
@@ -3966,7 +4040,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <td colspan="3">derde
 </td></tr></tbody></table>
 <h3><span class="mw-headline" id="Verdelingsgetallen">Verdelingsgetallen</span> </h3>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover     condensed">
 <tbody><tr>
 <th colspan="10">Numeralia: verdelingsgetallen
 </th></tr>
@@ -4079,7 +4153,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 	<div id="bodyContent" class="vector-body">
 		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="nl" dir="ltr"><div class="mw-parser-output"><p>Deze pagina geeft een <b>lijst van <a href="/wiki/Numeralia_(Latijn)" title="Numeralia (Latijn)">numeralia</a> (telwoorden) in het Latijn</b>.
 </p>
-<table class="wikitable">
+<table class="wikitable table table-bordered border-primary  table-striped table-hover">
 <tbody><tr>
 <th colspan="9" bgcolor="#99CCFF">NUMERALIA LATIJN
 </th></tr>
@@ -4334,7 +4408,7 @@ De zelfstandige naamwoorden zijn in het Latijn verdeeld in 5 <a href="/wiki/Decl
 <tr>
 <th colspan="9" bgcolor="#99CCFF">
 </th></tr>
-<tr>
+<tr class="force-page-break">
 <th colspan="9" bgcolor="#99CCFF">
 </th></tr>
 <tr>
